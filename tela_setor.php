@@ -10,7 +10,7 @@ echo "Uso da sessao " . $_SESSION["id"] . "Cookie " . $_COOKIE ["nome"];
     </head>
     <body>
         <form action="script_setor.php" method="post">
-        Id Setor: <input type=text  name=idsetor><br><br>
+        
         Setor: <input type=text  name=nomesetor><br><br>
         Responsavel Setor: <input type=text  name=respsetor><br><br>
         Micro: <input type=text  name=micro><br><br>

@@ -35,7 +35,7 @@ $fp = fopen("cadastro.txt", "a");
 $escreve = fwrite($fp, "Item ".$nome." Quantidade ".$qtd." e descricao ".$descricao);
 fclose($fp);
 
-$cadastro = new class_cadastro;
+$cadastro = new Cadastro();
 
 $cadastro -> setId($nome);
 $cadastro -> setNome($qtd);
