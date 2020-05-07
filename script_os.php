@@ -20,7 +20,7 @@ if ($conn->connect_error) {
 }
 //Comando que será executado no banco
 // insere na tablela cliente com suas respectivas colunas e valores
-$sql = "INSERT INTO ricardo_os(dtsbertura, trocaequipamento, datatroca) VALUES ('".$dtabert."', '".$trocaequip."', '".$dttroca."')";
+$sql = "INSERT INTO ricardo_os(dtabertura, trocaequipamento, datatroca) VALUES ('".$dtabert."', '".$trocaequip."', '".$dttroca."')";
 
 if ($conn->query($sql) === TRUE) { //aqui executa a o comando
   echo "Dados salvo com sucesso";

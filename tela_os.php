@@ -13,7 +13,7 @@ echo "Uso da sessao" . $_SESSION["id"] . "Cookie" . $_COOKIE ["nome"];
         Número OS: <input type=text  name=numos><br><br>
         Data Abertura: <input type=text  name=dtabert><br><br>
         Equipamento a substituir: 
-        <select name=processador> 
+        <select name=trocaequip> 
             <option value=Placamae>Placa-mãe</option> 
             <option value=Memoria>Memória</option> 
             <option value=Processador>Processador</option>
